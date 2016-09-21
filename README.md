@@ -11,7 +11,7 @@ echo $fcmMsg->send($message, $title, $icon);
 -----------------------
 
 $ApiKey = Your Google Cloud Messaging Server API Key,
-$message The mesasge you want to push out,
+$message = The body of the notification,
 $title = Title of the notification,
 $icon = Icon that will be displayed when showing notification (for Lollipop+ make sure you use a silhouette style icon)
 
