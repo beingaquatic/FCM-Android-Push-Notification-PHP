@@ -11,3 +11,5 @@ $icon = "ic_silhouette";
 $fcmMsg = new FCMPushMessage($ApiKey);
 
 echo $fcmMsg->send($message, $title, $icon);
+
+//should print something like {"message_id":74952088159598716}
