@@ -24,7 +24,7 @@ class FCMPushMessage {
 	private $ApiKey = "";
 	
 	function FCMPushMessage($ApiKey){
-		$this->$ApiKey = $ApiKey;
+		$this->ApiKey = $ApiKey;
 	}
 
 	/*
@@ -32,7 +32,7 @@ class FCMPushMessage {
 	*/
 	function send($message, $title, $icon){
 		
-		if(strlen($this->$ApiKey) < 8){
+		if(strlen($this->ApiKey) < 8){
 			throw new FCMPushMessageArgumentException("API Key not set");
 		}
         
@@ -48,7 +48,7 @@ class FCMPushMessage {
 		);
 
 		$headers = array( 
-			'Authorization: key=' . $this->$ApiKey,
+			'Authorization: key=' . $this->ApiKey,
 			'Content-Type: application/json'
 		);
 
