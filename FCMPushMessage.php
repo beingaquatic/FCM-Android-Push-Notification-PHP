@@ -10,11 +10,11 @@ echo $fcmMsg->send($message, $title, $icon);
 
 $ApiKey = Your GCM api key
 $message The mesasge you want to push out
-    $title = Title of the notification
-    $icon = Icon that will be displayed when showing notification (for Lollipop+ make sure you use a silhouette style icon)
+$title = Title of the notification
+$icon = Icon that will be displayed when showing notification (for Lollipop+ make sure you use a silhouette style icon)
 
-    Based on GCMPush class found at:
-    https://github.com/mattg888/GCM-PHP-Server-Push-Message
+Based on GCMPush class found at:
+https://github.com/mattg888/GCM-PHP-Server-Push-Message
 
 @author beingaquatic
 */
