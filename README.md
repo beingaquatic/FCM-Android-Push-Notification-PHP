@@ -1,4 +1,4 @@
-Google Firebase PHP Server Class
+Google Firebase Notification Sender PHP Server Class
 
 A PHP class to send messages to all devices that have the app implementing Google Firebase messaging. Firebase uses Google Cloud Messaging (GCM) but has different syntax than the traditional GCM.
 
